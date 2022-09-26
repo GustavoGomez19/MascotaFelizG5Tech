@@ -1,0 +1,117 @@
+html{
+    font-family: 'Michroma', sans-serif;
+}
+
+body{
+    background-image: url(img/bgbody2.png);
+    opacity: 1;
+}
+
+/*Estilos de logo y titulo de la pagina*/
+header{
+    height: 160px;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
+    box-shadow: 0px 5px 15px 0px rgba(110,104,110,1);
+    background-color: #e5e5e5;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: inline-block;
+}
+.icono{
+    width: 150px;
+    border-radius: 5px;
+    
+}
+
+.titulo{
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.hero{
+    background-image: url(img/mascota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    margin-bottom: 2rem;
+    box-shadow: 0px 5px 15px 0px rgba(110,104,110,1);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 700px;
+    text-align: center;
+}
+
+.contenido-hero p{
+    text-align: center;
+}
+
+
+.nav-bg{
+    
+}
+
+.navegacion-principal {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.enlaces-formularios a {
+    color: #023047;
+    text-decoration: none;
+    font-size: 1.2 rem;
+    font-weight: 500;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nav-bg-veterinarios{
+    height: 150px;
+    background-color: antiquewhite;
+    text-align: right;
+    width: 760px;
+}
+
+.inicio-veterinario{
+    text-decoration: none;
+    width: 700px;
+    height: 100px;
+}
+
+.veterinarios{
+    
+    box-shadow: 0px 5px 15px 0px rgba(110,104,110,1);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 700px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pie-pagina{
+    margin-top: 30px;
+    width: 700px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.formulario{
+    background-color: #d08c60;
+    width: 600px; /**Utilizar el valor más pequeño**/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+fieldset{
+    border: none;
+}

@@ -1,0 +1,18 @@
+﻿@page
+@model MascotaFeliz.App.FrontEnd.Pages.VeterinarioModel
+@{
+    int veterinarioId=Model.veterinario.Id;
+}
+
+<section class="formularios">
+<h2>Edicion de Veterinario</h2>
+<form method="post" class="formulario">
+        <input  type="hidden" asp-for="veterinario.Id">
+        <input  class="controls" asp-for="veterinario.Nombres" class="form-control" placeholder="Nombres">
+        <input  class="controls" asp-for="veterinario.Apellidos" class="form-control" placeholder="Apellidos">
+        <input  class="controls" asp-for="veterinario.Direccion" class="form-control" placeholder="Direccion">
+        <input  class="controls" asp-for="veterinario.Telefono" class="form-control" placeholder="Telefono">
+        <input  class="controls" asp-for="veterinario.TarjetaProfesional" class="form-control" placeholder="Tarjeta Profesional">
+        <div class="botones"><button type="submit" class="boton" >Grabar</button></div>
+</form>
+</section>

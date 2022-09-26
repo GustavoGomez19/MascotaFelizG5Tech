@@ -1,0 +1,27 @@
+﻿@page
+@model MascotaFeliz.App.FrontEnd.Pages.MascotaModel
+@{
+}
+
+<section class="formularios">
+<h2>Edicion de Mascota</h2>
+<form method="post" class="formulario">
+    <input  type="hidden" asp-for="mascota.Id">
+    <input  class="controls" asp-for="mascota.Nombre" class="form-control" placeholder="Nombre">
+    <input  class="controls" asp-for="mascota.Color" class="form-control" placeholder="Color">
+    <input  class="controls" asp-for="mascota.Raza" class="form-control" placeholder="Raza">
+    <input  class="controls" asp-for="mascota.Especie" class="form-control" placeholder="Especie">
+    <select id="dueno" asp-for="mascota.Dueno.Id" name="duenoId" class="controls">
+    <option value="0">Seleccione un dueno</option>
+    @foreach (var dueno in Model.listaDuenos)
+    {
+        <option value="@dueno.Id">@dueno.Nombres</option>
+    }
+    </select>
+    <!--
+    <input  class="controls" asp-for="mascota.Veterinario" class="form-control" placeholder="Veterinario">
+	<input  class="controls" asp-for="mascota.Historia" class="form-control" placeholder="Historia">
+    -->
+    <div class="botones"><button type="submit" class="boton" >Grabar</button></div>
+</form>
+</section>
