@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gagom\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gagom\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.pages.EditarVeterinariosModel
+@{
+}
+
+<section class="formularios">
+    <h2>Editar o crear veterinarios</h2>
+
+    <form method="post" class="formulario">
+        
+        <input type="hidden" asp-for = "veterinario.Id">
+        <input asp-for = "veterinario.Nombres" class="form-control" placeholder="Nombres">
+        <input asp-for = "veterinario.Apellidos" class="form-control" placeholder="Apellidos">
+        <input asp-for = "veterinario.Direccion" class="form-control" placeholder="Dirección">
+        <input asp-for = "veterinario.Telefono" class="form-control" placeholder="Teléfono">
+        <input asp-for = "veterinario.TarjetaProfesional" class="form-control" placeholder="Tarjeta Profesional">
+
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        
+    </form>
+
+    <a asp-page="./ListaVeterinarios" class="btn-default">Lista Veterinarios</a>
+</section>

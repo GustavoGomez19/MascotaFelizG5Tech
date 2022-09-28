@@ -1,0 +1,43 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
+@{
+}
+<body>
+    <section class="formularios">
+        <form class="formulario">
+            <h2>Detalles de la Mascota</h2>
+            <div class="controls"><p>Id: @Model.mascota.Id</p></div>
+            <div class="controls"><p>Nombre: @Model.mascota.Nombre</p></div>
+            <div class="controls"><p>Color: @Model.mascota.Color</p></div>
+            <div class="controls"><p>Raza: @Model.mascota.Raza</p></div>
+            @if (Model.mascota.Dueno == null)
+            {
+            <div class="controls"><p>Dueno: NO EXISTE</p></div>
+            }
+            else
+            {
+            <div class="controls"><p>Dueno: @Model.mascota.Dueno.Nombres @Model.mascota.Dueno.Apellidos</p></div>    
+            }
+
+            @if (Model.mascota.Veterinario == null)
+            {
+            <div class="controls"><p>Veterinario: NO EXISTE</p></div>
+            }
+            else
+            {
+            <div class="controls"><p>Veterinario: @Model.mascota.Veterinario.Nombres @Model.mascota.Veterinario.Apellidos </p></div>   
+            }
+
+            @if (Model.mascota.Historia == null)
+            {
+            <div class="controls"><p>Historia: NO EXISTE</p></div>
+            }
+            else
+            {
+            <div class="controls"><p>Historia: @Model.mascota.Historia.Id</p></div>   
+            }
+
+            <a id="retornar" asp-page="./ListaMascotas" class="btn-default">Lista Mascotas</a>  
+        </form>
+    </section>
+</body>
