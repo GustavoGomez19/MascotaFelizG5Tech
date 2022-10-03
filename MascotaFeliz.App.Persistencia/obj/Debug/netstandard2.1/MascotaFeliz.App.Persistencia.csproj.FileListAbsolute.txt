@@ -10,3 +10,16 @@ C:\Mascota\MascotaFeliz.App\mascotafeliz.app.persistencia\bin\Debug\netstandard2
 C:\Mascota\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
 C:\Mascota\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
 C:\Mascota\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.deps.json
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.AssemblyReference.cache
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfoInputs.cache
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfo.cs
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+D:\MascotaFelizG5Tech\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
